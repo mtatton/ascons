@@ -2,7 +2,7 @@
   You can do whatever You want with it. But there is no warranty
   nor even implied warranty on both binary and code provided.
 */
-// 20190701 ANSCONS 0.2.1
+// 20190701 ANSCONS 0.2.1.0
 // 20190207 Added page down, up, etc.
 // 20190207 Added Sauce Record processing
 
@@ -1082,7 +1082,5 @@ int main(int argc, char **argv) {
   } else {
     deinit_console(1);
   }
-
-  deinit_console(2);
 
 }
